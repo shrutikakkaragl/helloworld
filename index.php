@@ -21,7 +21,7 @@ chdir(dirname(__DIR__).'\agldashboard-maruti');
 require 'init_autoloader.php';
 // Run the application!
 //echo "f";exit;
-
+echo $g;
 Zend\Mvc\Application::init(require 'config/application.config.php')->run();
 
 ?>
