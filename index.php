@@ -25,8 +25,13 @@ require 'init_autoloader.php';
 //echo "f";exit;
 
 echo $g;
+//<<<<<<< HEAD
 echo "In new branchr";
 
+//=======
+echo "In master";
+echo "sss";
+//>>>>>>> 0463d47c1088066122194fdd9b5c88eec24db386
 Zend\Mvc\Application::init(require 'config/application.config.php')->run();
 
 ?>
