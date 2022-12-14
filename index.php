@@ -25,8 +25,19 @@ require 'init_autoloader.php';
 //echo "f";exit;
 
 echo $g;
+//<<<<<<< HEAD
+echo "In feature";
+echo "New branbg";
+////=======
 echo "In master";
+//<<<<<<< HEAD
 echo "sss";
+//=======
+//>>>>>>> 832792ffe42efbbaa2c2773d7447a30f3602486a
+
+
+echo "d";
+//>>>>>>> 83e8f7165e06778da3ffbe1117c3e135749432eb
 Zend\Mvc\Application::init(require 'config/application.config.php')->run();
 
 ?>
