@@ -37,6 +37,8 @@ echo "sss";
 
 
 echo "d";
+echo "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbad wale changes";
+
 //>>>>>>> 83e8f7165e06778da3ffbe1117c3e135749432eb
 Zend\Mvc\Application::init(require 'config/application.config.php')->run();
 
