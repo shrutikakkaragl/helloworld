@@ -26,7 +26,7 @@ require 'init_autoloader.php';
 
 echo $g;
 echo "In master";
-
+echo "sss";
 Zend\Mvc\Application::init(require 'config/application.config.php')->run();
 
 ?>
