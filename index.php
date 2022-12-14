@@ -26,7 +26,7 @@ require 'init_autoloader.php';
 
 echo $g;
 echo "In feature";
-
+echo "New branbg";
 Zend\Mvc\Application::init(require 'config/application.config.php')->run();
 
 ?>
